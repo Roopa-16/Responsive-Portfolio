@@ -14,13 +14,15 @@
     }
     p.one{
     padding: 12px;
+    text-align: center;
     }
     p.two{
     color:black;
     border-width: thick;
-    padding: 40px 0px 20px 100px;
+    padding: 40px 0px 20px 0px;
     margin-left: 20px;
     text-align: center;
+    
     }   
     .page{
     border: 1px solid;
@@ -34,34 +36,23 @@
     float:right;
     width: 960px;
     }
-    /* .container {
-    width: auto;
-    max-width: 680px;
-    padding: 0 15px;
-    position: absolute;
-    bottom: 0;
-    } */
 
-    .footer {
-     background-color: #f5f5f5;
-     padding: 0 15px;
-     width: 960px;
-    bottom: 0;
-    }   
 
 
 
     .container {
         border-radius: 5px;
         background-color:rgb(255, 255, 255);
-        padding: 50px;
-        margin-right: 50px;
+        padding: 100px;
+        /* margin-right: 10px; */
+
         
     }
 
 .topnav {
     background-color: #000202;
     overflow: hidden;
+    position: static;
   }
   
   
@@ -106,4 +97,28 @@ input[type=submit] {
   
 input[type=submit]:hover {
     background-color:grey;
+
 }
+
+.port1{
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 980px) {
+    body {
+      width: 90%;
+      margin-left: 5%;
+    }
+
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      width: 90%;
+    }
+  
+  
+  @media only screen and (max-width: 640px) {
+    body {
+      width: 90%;
+    }
+  
